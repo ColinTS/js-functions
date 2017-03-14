@@ -34,6 +34,9 @@
  * @param {number} y
  * @return {number} the sum
  */
+ var add = function(n,y){
+  return n+y;
+ };
 
 
 /**
