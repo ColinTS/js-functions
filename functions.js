@@ -3,7 +3,6 @@
  * @param {number} n
  * @return {string} the number as a string
  */
-
  var numberToString = function(n){
   return String(n);
  };
@@ -14,6 +13,9 @@
  * @param {number} n
  * @return {number}
  */
+ var increase = function(n){
+  return n+1;
+ };
 
 
 /**
