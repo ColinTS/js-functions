@@ -3,9 +3,9 @@
  * @param {number} n
  * @return {string} the number as a string
  */
- var numberToString = function(n){
+var numberToString = function(n){
   return String(n);
- };
+};
 
 
 /**
@@ -13,9 +13,9 @@
  * @param {number} n
  * @return {number}
  */
- var increase = function(n){
+var increase = function(n){
   return n+1;
- };
+};
 
 
 /**
@@ -23,9 +23,9 @@
  * @param {number} n
  * @return {number}
  */
- var decrease = function(n){
+var decrease = function(n){
   return n-1;
- };
+};
 
 
 /**
@@ -34,9 +34,9 @@
  * @param {number} y
  * @return {number} the sum
  */
- var add = function(x,y){
+var add = function(x,y){
   return x+y;
- };
+};
 
 
 /**
@@ -45,9 +45,9 @@
  * @param {number} y
  * @return {number} the difference
  */
- var subtract = function(x,y){
+var subtract = function(x,y){
   return x-y;
- };
+};
 
 
 /**
@@ -56,9 +56,9 @@
  * @param {number} y
  * @return {number} the product
  */
- var multiply = function(x,y){
+var multiply = function(x,y){
   return x*y;
- };
+};
 
 
 /**
@@ -67,9 +67,9 @@
  * @param {number} y
  * @return {number} the quotient
  */
- var divide = function(x,y){
+var divide = function(x,y){
   return x/y;
- };
+};
 
 
 /**
@@ -77,9 +77,9 @@
  * @param {number} x, number to be squared
  * @return {number} squared
  */
- var square = function(x){
+var square = function(x){
   return x*x;
- };
+};
 
 
 /**
@@ -90,12 +90,12 @@
  * @param {number} y
  * @return {number} the result
  */
- var calculate = function(string,x,y){
+var calculate = function(string,x,y){
 
   if(string === "add"){
     console.log(x + " + " + y + " = " + add(x,y));
     return add(x,y);
-  }
+}
 
   if(string === "subtract"){
     console.log(x + " - " + y + " = " + subtract(x,y));
@@ -113,7 +113,7 @@
   }
 
 
- };
+};
 
 
 /**
@@ -122,14 +122,14 @@
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
- var isGreaterThan = function(a,b){
+var isGreaterThan = function(a,b){
     if(a>b){
       return true;
     }
     else{
       return false;
     }
- };
+};
 
 
 /**
@@ -138,14 +138,14 @@
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
- var isLessThan = function(a,b){
+var isLessThan = function(a,b){
     if(a<b){
       return true;
     }
     else{
       return false;
     }
- };
+};
 
 
 /**
@@ -154,14 +154,14 @@
  * @param {number} b
  * @return {boolean} the numbers are equal
  */
- var areEqual = function(a,b){
+var areEqual = function(a,b){
     if(a === b){
       return true;
     }
     else{
       return false;
     }
- };
+};
 
 
 /**
@@ -170,14 +170,14 @@
  * @param {number} y
  * @return {number} the smallest number
  */
- var minimum = function(x,y){
+var minimum = function(x,y){
   if(x < y){
     return x;
   }
   else{
     return y;
   }
- };
+};
 
 
 /**
@@ -186,14 +186,14 @@
  * @param {number} y
  * @return {number} the largest number
  */
- var maximum = function(x,y){
+var maximum = function(x,y){
   if(x > y){
     return x;
   }
   else{
     return y;
   }
- };
+};
 
 
 /**
@@ -201,14 +201,14 @@
  * @param {number} n
  * @return {boolean} the number is even
  */
- var isEven = function(n){
+var isEven = function(n){
   if(n % 2 === 0){
     return true;
   }
   else{
     return false;
   }
- };
+};
 
 
 /**
@@ -216,14 +216,14 @@
  * @param {number} n
  * @return {boolean} the number is odd
  */
- var isOdd = function(n){
+var isOdd = function(n){
   if(n % 2 === 0){
     return false;
   }
   else{
     return true;
   }
- };
+};
 
 
 /**
@@ -237,7 +237,7 @@
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
- var letterGrade = function(score,total){
+var letterGrade = function(score,total){
   if(score / total >= 0.9){
     return "A";
   }
@@ -253,7 +253,7 @@
   if(score / total <0.6){
     return "F";
   }
- };
+};
 
 
 /**
@@ -277,9 +277,9 @@ var incrementReviews = function(restaurant){
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
- var combine = function(word1,word2){
+var combine = function(word1,word2){
   return word1 + " " + word2;
- };
+};
 
 
 /**
@@ -289,11 +289,11 @@ var incrementReviews = function(restaurant){
  * @param {number} radius
  * @return {object} circle
  */
- var createCircle = function(radius){
+var createCircle = function(radius){
   var circle = {
     circumference: 2*Math.PI*radius,
     area: (radius*radius)*Math.PI
   };
   return circle;
- };
+};
 
