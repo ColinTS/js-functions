@@ -154,6 +154,14 @@
  * @param {number} b
  * @return {boolean} the numbers are equal
  */
+ var areEqual = function(a,b){
+    if(a === b){
+      return true;
+    }
+    else{
+      return false;
+    }
+ };
 
 
 /**
