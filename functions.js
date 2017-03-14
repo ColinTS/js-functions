@@ -237,6 +237,23 @@
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
+ var letterGrade = function(score,total){
+  if(score / total >= 0.9){
+    return "A";
+  }
+  if(score / total >= 0.8 && score / total < 0.9){
+    return "B";
+  }
+  if(score / total >= 0.7 && score / total < 0.8){
+    return "C";
+  }
+  if(score / total >= 0.6 && score / total < 0.7){
+    return "D";
+  }
+  if(score / total <0.6){
+    return "F";
+  }
+ };
 
 
 /**
