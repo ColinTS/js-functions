@@ -263,13 +263,12 @@
  * @param {object} restaurant   represents a restaurant object
  * @return {object} restaurant
  */
-var incrementReviews = function(){
-  if(restaurant.hasOwnProperty('reviews') === true){
-    return restaurant.reviews += 1;
+var incrementReviews = function(restaurant){
+  if(restaurant.reviews === undefined){
+    restaurant.reviews = 0;
   }
-  else{
-    return restaurant.reviews === 1;
-  }
+    restaurant.reviews++;
+    return restaurant;
 };
 
 /**
