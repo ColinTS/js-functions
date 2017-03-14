@@ -216,6 +216,14 @@
  * @param {number} n
  * @return {boolean} the number is odd
  */
+ var isOdd = function(n){
+  if(n % 2 === 0){
+    return false;
+  }
+  else{
+    return true;
+  }
+ };
 
 
 /**
