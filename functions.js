@@ -23,6 +23,9 @@
  * @param {number} n
  * @return {number}
  */
+ var decrease = function(n){
+  return n-1;
+ };
 
 
 /**
