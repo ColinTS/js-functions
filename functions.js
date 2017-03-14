@@ -263,7 +263,14 @@
  * @param {object} restaurant   represents a restaurant object
  * @return {object} restaurant
  */
-
+var incrementReviews = function(){
+  if(restaurant.hasOwnProperty('reviews') === true){
+    return restaurant.reviews += 1;
+  }
+  else{
+    return restaurant.reviews === 1;
+  }
+};
 
 /**
  * Joins two strings with a space.
@@ -271,6 +278,9 @@
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+ var combine = function(word1,word2){
+  return word1 + " " + word2;
+ };
 
 
 /**
