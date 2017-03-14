@@ -45,6 +45,9 @@
  * @param {number} y
  * @return {number} the difference
  */
+ var subtract = function(x,y){
+  return x-y;
+ };
 
 
 /**
