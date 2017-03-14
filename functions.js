@@ -186,6 +186,14 @@
  * @param {number} y
  * @return {number} the largest number
  */
+ var maximum = function(x,y){
+  if(x > y){
+    return x;
+  }
+  else{
+    return y;
+  }
+ };
 
 
 /**
