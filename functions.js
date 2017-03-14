@@ -201,6 +201,14 @@
  * @param {number} n
  * @return {boolean} the number is even
  */
+ var isEven = function(n){
+  if(n % 2 === 0){
+    return true;
+  }
+  else{
+    return false;
+  }
+ };
 
 
 /**
