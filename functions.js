@@ -77,6 +77,9 @@
  * @param {number} x, number to be squared
  * @return {number} squared
  */
+ var square = function(x){
+  return x*x;
+ };
 
 
 /**
