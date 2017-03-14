@@ -290,4 +290,11 @@ var incrementReviews = function(){
  * @param {number} radius
  * @return {object} circle
  */
+ var createCircle = function(radius){
+  var circle = {
+    circumference: 2*Math.PI*radius,
+    area: (radius*radius)*Math.PI
+  };
+  return circle;
+ };
 
