@@ -34,8 +34,8 @@
  * @param {number} y
  * @return {number} the sum
  */
- var add = function(n,y){
-  return n+y;
+ var add = function(x,y){
+  return x+y;
  };
 
 
@@ -90,6 +90,30 @@
  * @param {number} y
  * @return {number} the result
  */
+ var calculate = function(string,x,y){
+
+  if(string === "add"){
+    console.log(x + " + " + y + " = " + add(x,y));
+    return add(x,y);
+  }
+
+  if(string === "subtract"){
+    console.log(x + " - " + y + " = " + subtract(x,y));
+    return subtract(x,y);
+  }
+
+  if(string === "multiply"){
+    console.log(x + " * " + y + " = " + multiply(x,y));
+    return multiply(x,y);
+  }
+
+  if(string === "divide"){
+    console.log(x + " / " + y + " = " + divide(x,y));
+    return divide(x,y);
+  }
+
+
+ };
 
 
 /**
