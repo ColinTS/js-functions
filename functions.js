@@ -138,6 +138,14 @@
  * @param {number} b
  * @return {boolean} `a` is smaller than `b`
  */
+ var isLessThan = function(a,b){
+    if(a<b){
+      return true;
+    }
+    else{
+      return false;
+    }
+ };
 
 
 /**
