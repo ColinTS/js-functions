@@ -56,6 +56,9 @@
  * @param {number} y
  * @return {number} the product
  */
+ var multiply = function(x,y){
+  return x*y;
+ };
 
 
 /**
