@@ -67,6 +67,9 @@
  * @param {number} y
  * @return {number} the quotient
  */
+ var divide = function(x,y){
+  return x/y;
+ };
 
 
 /**
