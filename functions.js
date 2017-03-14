@@ -123,12 +123,7 @@ var calculate = function(string,x,y){
  * @return {boolean} `a` is larger than `b`
  */
 var isGreaterThan = function(a,b){
-    if(a>b){
-      return true;
-    }
-    else{
-      return false;
-    }
+   return a>b;
 };
 
 
@@ -139,12 +134,7 @@ var isGreaterThan = function(a,b){
  * @return {boolean} `a` is smaller than `b`
  */
 var isLessThan = function(a,b){
-    if(a<b){
-      return true;
-    }
-    else{
-      return false;
-    }
+    return a<b;
 };
 
 
@@ -155,12 +145,7 @@ var isLessThan = function(a,b){
  * @return {boolean} the numbers are equal
  */
 var areEqual = function(a,b){
-    if(a === b){
-      return true;
-    }
-    else{
-      return false;
-    }
+    return a === b;
 };
 
 
