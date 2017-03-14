@@ -122,6 +122,14 @@
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
  */
+ var isGreaterThan = function(a,b){
+    if(a>b){
+      return true;
+    }
+    else{
+      return false;
+    }
+ };
 
 
 /**
